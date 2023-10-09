@@ -46,6 +46,19 @@ header{
     width: 55%;
     height: 80%;
     background-color: rgb(238, 130, 238);
-    border: 2px dotted;s
+    border: 2px dotted;
 }
 /* fine section box rosa con sfondo blu*/
+
+/* section box blu-rosa con sfondo bianco*/
+.container-due{
+    background-color: rgb(182, 36, 36);
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-due>.blu-rosa{
+    
+}
