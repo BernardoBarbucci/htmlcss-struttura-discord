@@ -142,3 +142,34 @@ header{
     border: 2px dotted;
 }
 /*fine box-verde*/
+
+/*box rosso e azzurro*/
+.container-cinque{
+    background-color:rgb(35, 39, 42);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.container-cinque>.rosso-box{
+    width: 30%;
+    background-color:rgb(240, 128, 128);
+    height: 300px;
+    border: 2px dotted;
+}
+
+.container-cinque>.azzurro-box{
+    width: calc(70% / 4);
+    background-color:rgb(32, 178, 170);
+    height: 300px ;
+    border: 2px dotted white;
+}
+/*fine box rosso e azzurro*/
+
+/*footer*/
+footer{
+    background-color: rgb(35, 39, 42);
+    
+}
