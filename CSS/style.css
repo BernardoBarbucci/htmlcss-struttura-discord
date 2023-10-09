@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* navbar*/
 header{
     height: 40px;
     background-color: rgb(173, 216, 230);
@@ -16,15 +17,35 @@ header{
 .box>.nav{
     display: flex;
     background:rgb(218, 165, 32);
-    width:calc(33.33% - 2 * 3px);
-    height: 27px;
+    width:calc(100% / 3);
+    height: 25px;
     align-items: center;
-    border: 3px dotted;
+    border: 2px dotted;
     justify-content: space-around;
 }
 /*se metto justify-content: space-between; mi piazza i tre elementi a capo sulla sinistra (perche??)*/
 
 .box{
-    padding:0 12rem;
+    padding: 0 10rem;
+}
+/* fine navbar*/
+
+/* section box rosa con sfondo blu*/
+.container{
+    height: 320px;
+    background-color:rgb(0, 0, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.container>.rosa-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 80%;
+    background-color: rgb(238, 130, 238);
+    border: 2px dotted;s
+}
+/* fine section box rosa con sfondo blu*/
