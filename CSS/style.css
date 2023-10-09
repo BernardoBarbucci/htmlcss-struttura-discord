@@ -12,21 +12,14 @@ header{
     background-color: rgb(173, 216, 230);
     display: flex;
     align-items: center;
+    justify-content: space-between; /*non funziona anche dopo che ho messo le width sui singoli e display flex+justify+align-items nell'header*/
+    padding: 0 10rem;
 }
 
 .box>.nav{
-    display: flex;
     background:rgb(218, 165, 32);
-    width:calc(100% / 3);
     height: 25px;
-    align-items: center;
     border: 2px dotted;
-    justify-content: space-around;
-}
-/*se metto justify-content: space-between; mi piazza i tre elementi a capo sulla sinistra (perche??)*/
-
-.box{
-    padding: 0 10rem;
 }
 /* fine navbar*/
 
@@ -168,8 +161,38 @@ header{
 }
 /*fine box rosso e azzurro*/
 
+hr{
+    background-color:rgb(224, 224, 224) ;
+}
+
 /*footer*/
 footer{
     background-color: rgb(35, 39, 42);
-    
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
 }
+
+.final-box{
+    display: flex;
+    background-color: rgb(127, 255, 212);
+    width: 100%;
+    height: 33px;
+    align-items: center;
+    justify-content: space-between;
+}    
+
+.final-box>.end{
+    display: flex;
+    background-color:rgb(255, 182, 193);        
+    height: 25px;
+    align-items: center;
+    border: 2px dotted;
+}
+
+
+
+
+
