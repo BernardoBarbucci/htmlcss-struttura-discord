@@ -1,3 +1,4 @@
+
 /* Reset*/
 *{
     margin: 0;
@@ -6,6 +7,24 @@
 }
 
 header{
-    height: 50px;
+    height: 40px;
     background-color: rgb(173, 216, 230);
+    display: flex;
+    align-items: center;
 }
+
+.box>.nav{
+    display: flex;
+    background:rgb(218, 165, 32);
+    width:calc(33.33% - 2 * 3px);
+    height: 27px;
+    align-items: center;
+    border: 3px dotted;
+    justify-content: space-around;
+}
+/*se metto justify-content: space-between; mi piazza i tre elementi a capo sulla sinistra (perche??)*/
+
+.box{
+    padding:0 12rem;
+}
+
