@@ -48,9 +48,9 @@ header{
     background-color: rgb(238, 130, 238);
     border: 2px dotted;
 }
-/* fine section box rosa con sfondo blu*/
+/*fine section box rosa con sfondo blu*/
 
-/* section box blu-rosa con sfondo bianco*/
+/*section box blu-rosa con sfondo bianco*/
 .container-due{
     background-color: rgb(255, 255, 255);
     height: 350px;
@@ -73,9 +73,9 @@ header{
     height: 300px ;
     border: 2px dotted;
 }
-/* fine section box blu-rosa con sfondo bianco*/
+/*fine section box blu-rosa con sfondo bianco*/
 
-/* section box blu-rosa con sfondo bianco flippato*/
+/*section box blu-rosa con sfondo bianco flippato*/
 .container-tre{
     background-color:rgb(211, 211, 211);
     height: 350px;
@@ -99,9 +99,9 @@ header{
     height: 300px ;
     border: 2px dotted;
 }
-/* fine section box blu-rosa con sfondo bianco flippato*/
+/*fine section box blu-rosa con sfondo bianco flippato*/
 
-/* terzo section box blu-rosa con sfondo bianco */
+/*terzo section box blu-rosa con sfondo bianco */
 .container-quattro{
     background-color: rgb(255, 255, 255);
     height: 350px;
@@ -124,3 +124,21 @@ header{
     height: 300px ;
     border: 2px dotted;
 }
+
+/*box-verde*/
+.container-verde{
+    background-color:rgb(211, 211, 211);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.container-verde>.verde-box{
+    width: 100%;
+    background-color:rgb(34, 139, 34);
+    height: 440px;
+    border: 2px dotted;
+}
+/*fine box-verde*/
